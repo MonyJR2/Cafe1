@@ -1,0 +1,586 @@
+* {
+    transition: all .3s ease;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 60%;
+}
+.acc>img {
+    width: 50px;
+    border-radius: 50%;
+}
+.title-java{
+    position: absolute;
+    left: 40%;
+    top: 3%
+}
+.acc {
+    position: absolute;
+    right: 10px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(42, 42, 206);
+    display: flex;
+}
+
+.add {
+    display: grid;
+    grid-template: repeat(1, auto) /repeat(2, auto);
+    width: 100%;
+    gap: 10px;
+
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: absolute;
+
+}
+.menu>h3{
+    padding: 50px;
+    background-color: #9a9a9a;
+    border-radius: 50%;
+}
+.menu>h3:hover{
+    background-color: rgb(226, 42, 42);
+    padding: 50px;
+    transform: scale(1.2);
+}
+
+
+.box>img {
+    width: 100px;
+}
+
+.item-all {
+    display: grid;
+    grid-template: repeat(1, auto) /repeat(2, auto);
+    width: 100%;
+    gap: 10px;
+
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px rgb(109, 109, 109);
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    gap: 20px;
+    height: 300px;
+    
+}
+
+.box-img1>img {
+    width: 300px;
+}
+
+.select {
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.buyer>button{
+    padding: 10px;
+    border: none;
+    width: 80%;
+    background-color: rgb(236, 236, 236);
+    color: #000;
+    border-radius: 5px;
+}
+
+.buyer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.buyer>span{
+    margin: 0 10px;
+}
+
+.select>.lack {
+    position: absolute;
+    left: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pro-img>img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.pro-img {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#back3 {
+    rotate: 90deg;
+}
+
+.pro-head {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: 30px;
+}
+
+.pro-sex {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 30px;
+}
+
+.search {
+    position: absolute;
+
+}
+
+.search>input {
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.money {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(25, 250, 5);
+    box-shadow: 0 0 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.money-1,
+.money-2 {
+    margin: 0 20px;
+}
+
+.Sitting>ul{
+    display:block;
+    list-style-type: none;
+    position: absolute;
+    background-color: rgba(236, 127, 127, 0.452);
+    z-index: 1;
+    width: 50%;
+    height: 50%;
+    margin-left: -100%;
+    top: 40px;
+    gap: 10px;
+}
+#h2_pro{
+    display: none;
+}
+.box-footer{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px;
+    height: 50px;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-footer>span{
+    margin: 0 20px;
+}
+.alet-buy{
+    display: none;
+    position: absolute;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(5%);
+    height: 100px;
+    box-shadow: 0 0 50px rgb(8, 8, 8);
+    z-index: 2;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.alet-buy>h1>span{
+    position: absolute;
+    top: -10px;
+    right: -5px;
+}
+.alet-footer{
+    display: none;
+    position: absolute;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(50%);
+    height: 100px;
+    box-shadow: 0 0 50px rgb(8, 8, 8);
+    z-index: 2;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.alet-footer>h1>span{
+    position: absolute;
+    top: -10px;
+    right: -5px;
+}
+.alet-footer>h3{
+    rotate: 90deg;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    section{
+        width:100%;
+    }
+    .acc>img {
+        width: 50px;
+        border-radius: 50%;
+    }
+    .title-java{
+        position: absolute;
+        left: 30%;
+        color: blue;
+        top: 9%
+        
+    }
+    .acc {
+        position: absolute;
+        right: 10px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgb(42, 42, 206);
+        display: flex;
+    }
+
+    .add {
+        display: grid;
+        grid-template: repeat(1, auto) /repeat(2, auto);
+        width: 100%;
+        gap: 10px;
+    
+    }
+    
+
+    header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .menu {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        height: 50px;
+        align-items: center;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        position: absolute;
+
+    }
+    .menu>h3:hover h3::after{
+        background-color: black;
+    }
+ 
+
+    .box1>img {
+        width: 100px;
+    }
+
+    .item-all {
+        display: grid;
+        grid-template: repeat(1, auto) /repeat(2, auto);
+        width: 100%;
+        gap: 10px;
+
+    }
+
+    .box{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 0 5px rgb(109, 109, 109);
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 50px;
+        gap: 20px;
+        height: 300px;
+        
+    }
+
+
+    .box-img1{
+        margin-top: 50px;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box-img1>img{
+        width: 200px;
+    }
+
+    .select {
+        width: 100%;
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+    .buyer>button{
+        padding: 10px;
+        border: none;
+        width: 80%;
+        background-color: rgb(236, 236, 236);
+        color: #000;
+        border-radius: 5px;
+    }
+
+    .buyer {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .buyer>span{
+        margin: 0 10px;
+    }
+    
+    .select>.lack {
+        position: absolute;
+        left: 10px;
+        top: 50px;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pro-img>img {
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .pro-img {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #back3 {
+        rotate: 90deg;
+    }
+
+    .pro-head {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        margin: 30px;
+    }
+
+    .pro-sex {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin: 30px;
+    }
+
+    .search {
+        position: absolute;
+
+    }
+
+    .search>input {
+        outline: none;
+        border-radius: 10px;
+        border: 2px solid blue;
+    }
+
+    .money {
+        width: 100%;
+        height: 200px;
+        background-color: rgb(245, 246, 245);
+        box-shadow: 0 0 15px black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .money-1,
+    .money-2 {
+        margin: 0 20px;
+    }
+
+    .Sitting>ul{
+        display:block;
+        list-style-type: none;
+        position: absolute;
+        background-color: rgba(236, 127, 127, 0.452);
+        z-index: 1;
+        width: 50%;
+        height: 50%;
+        margin-left: -100%;
+        top: 40px;
+        gap: 10px;
+    }
+    #h2_pro{
+        display: none;
+    }
+    .box-footer{
+        display: flex;
+        position: fixed;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 10px;
+        height: 50px;
+        bottom: 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .box-footer>span{
+        margin: 0 20px;
+    }
+    .alet-buy{
+        display: none;
+        position: absolute;
+        width: 90%;
+        background-color: rgb(255, 255, 255);
+        transform: translateX(5%);
+        height: 100px;
+        box-shadow: 0 0 50px rgb(8, 8, 8);
+        z-index: 2;
+        top: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .alet-buy>h1>span{
+        position: absolute;
+        top: -10px;
+        right: -5px;
+    }
+    .alet-footer{
+        display: none;
+        position: absolute;
+        width: 90%;
+        background-color: rgb(255, 255, 255);
+        transform: translateX(5%);
+        height: 100px;
+        box-shadow: 0 0 50px rgb(8, 8, 8);
+        z-index: 2;
+        top: 50%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .alet-footer>h1>span{
+        position: absolute;
+        top: -10px;
+        right: -5px;
+    }
+    .alet-footer>h3{
+        rotate: 90deg;
+    }
+    .alet-card{
+        display: none;
+        position: absolute;
+        width: 90%;
+        background-color: rgb(255, 255, 255);
+        transform: translateX(5%);
+        height: 100px;
+        box-shadow: 0 0 50px rgb(8, 8, 8);
+        z-index: 2;
+        top: 50%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .alet-card>h1>span{
+        position: absolute;
+        top: -10px;
+        right: -5px;
+    }
+    .alet-card>h3{
+        rotate: 90deg;
+    }
+    .alet-card>a{
+        padding: 5px;
+        background-color: rgb(247, 0, 0);
+        border: none;
+        text-decoration: none;
+        width: 50%;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 1.5rem;
+    }
+    header{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 10px 10px rgb(129, 129, 129);
+        margin-bottom: 20px;
+    }
+}
